@@ -2,7 +2,6 @@ import axios, { AxiosResponse } from 'axios';
 
 
 
-//To run use ts-node src/app.ts
 interface Filter {
     genres: string[];
     network: {name: string, id: number};
@@ -171,6 +170,6 @@ const getMax = (averageRuns: {[key: string]: number}[]) => {
 
 
 
-highestAverageRunTime()
+
 
 
